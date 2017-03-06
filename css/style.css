@@ -1,0 +1,140 @@
+body {
+  justify-content: center;
+  align-items: middle;
+  border: 0 auto;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.slider {
+  width: 960px;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  /*border: 1px solid red*/
+}
+
+@media only screen and (max-width: 900px) {
+  .slider {
+    width: 100vw;
+  }
+  .slider ul li div img {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+}
+
+.slider ul li {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.slider ul li div img {
+  width: 960px;
+  height: 400px;
+}
+
+.previous {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.indicator {
+  flex-direction: row;
+  bottom: 0;
+  width: 100%;
+}
+.indicator ul {
+  margin-bottom: 2%;
+}
+.indicator ul li {
+  padding: 0 5px 0 5px;
+}
+
+.dots {
+  width: 10px;
+  height: 10px;
+  background: black;
+  opacity: 0.3;
+  transform: translateY(30px);
+  transition: all 0.1s ease-in-out;
+}
+.dots.active {
+  opacity: 1;
+}
+
+li.show-dots .dots {
+  transform: translateY(0px);
+}
+
+.previous, .next, .indicator {
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.previous, .next {
+  width: 40px;
+  height: inherit;
+  transition: all 0.1s ease;
+}
+
+.slider:hover .previous, .slider:hover .next {
+  background: black;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.slider:hover .previous:hover, .slider:hover .next:hover {
+  opacity: 0.7;
+}
+.slider:hover .top-line, .slider:hover .btm-line {
+  opacity: 1;
+}
+.slider:hover #prev-arrow .top-line {
+  transform: translateY(-10px) rotate(-45deg);
+}
+.slider:hover #prev-arrow .btm-line {
+  transform: translateY(10px) rotate(45deg);
+}
+.slider:hover #next-arrow .top-line {
+  transform: translateY(-10px) rotate(45deg);
+}
+.slider:hover #next-arrow .btm-line {
+  transform: translateY(10px) rotate(-45deg);
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+#prev-arrow, #next-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-line, .btm-line {
+  width: 30px;
+  height: 1px;
+  background: white;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+/*---Styled by Darren Lim (zhanhuil@buffalo.edu)---*/

@@ -1,0 +1,631 @@
+﻿@charset "utf-8";
+
+/* ------HEADER CONTENTS FOR ALL PAGES-----*/
+header {
+	float: none;
+	clear: both;
+	text-align: left;
+	background-color: #005bbb ;
+	font-family: Arial;
+	font-style: regular;
+	color: #E2E5EC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 150px;
+}
+
+#UBmasterBrandMarks_img img {
+	max-width: 300px;
+	height: 20px;
+	padding-top: 5px;
+}
+
+/* ------Margins and color FOR ALL PAGES-----*/
+
+#wrapper {
+	background-color: #FFFFFF;
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+
+/* ------FOOTER CONTENTS FOR ALL PAGES-----*/
+footer {
+	float: none;
+	clear: both;
+	text-align: left;
+	background-color: #005bbb ;
+	font-family: Arial;
+	font-style: regular;
+	font-size: 14px;
+	color: #E2E5EC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#labAddress {
+	text-align: right;
+	margin-right: 40px;
+}
+
+/*--Line break at FOOTER--*/
+hr {
+    color: #005bbb;
+		background-color: #005bbb;
+		noshade;
+}
+
+#SEAS_img img {
+	max-width: 400px;
+	height: 80px;
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+/*----FOOTER LINKS----*/
+/* unvisited link */
+a:link {
+	 color: white;
+	 text-decoration: none;;
+}
+/* visited link */
+a:visited {
+	 color: white;
+	 text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+	 color: white;
+	 text-decoration: underline;
+}
+/* selected link */
+a:active {
+	 color: white;
+	 text-decoration: none;
+}
+
+/* ------Optical and Ultrasonic Imaging Laboratory FOR ALL PAGES-----*/
+h1 {
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	color: #666666;
+	text-align: center;
+	font-family: Arial;
+	font-style: Regular;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border: solid red 1px;*/
+}
+
+/* ------Navigation Panel FOR ALL PAGES-----*/
+#mainav {
+	display: inline;
+	width: 100%;
+}
+
+#mainav ul {
+	list-style-type: none;
+	text-decoration: none;
+	/*padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;*/
+	/*margin: 50px auto;
+	border: red;*/
+	width: 100%;
+	margin-left: -3.5%;
+}
+
+#mainav a {
+	width: 14%;
+	display: block;
+	float: left;
+	text-align: center;
+	border-radius: 0px;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	color: #005bbb;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-decoration: none;
+	font-size: large;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	font-family: Arial;
+	font-style: Regular;
+	margin-bottom: 15px;
+	border-top: black dotted;
+	border-bottom: black dotted;
+	border-width: 1px;
+}
+
+#mainav a:hover, #mainav a:active, #mainav a:focus, #mainav a.thispage {
+	text-decoration: none;
+	color: #666666;
+}
+
+/*-------index.html PAGE-------*/
+#splitLeft {
+		  width: 49%;
+		  float: left;
+}
+
+#splitRight {
+		  width: 49%;
+		  float: right;
+}
+
+#mainContents h1 {
+		text-align: center;
+		padding-top: 20px;
+		vertical-align: middle;
+		font-family: Georgia;
+		font-style: Bold;
+		font-size: 30px;
+		color: #005bbb;
+		background-color: #e1e1e1  ;
+		height: auto;
+		padding-bottom: 20px;
+}
+
+h2 {
+		text-align: center;
+		padding-top: 10px;
+		vertical-align: middle;
+		font-family: Georgia;
+		font-style: Bold;
+		font-size: 20px;
+		color: #005bbb;
+		background-color: #e1e1e1;
+		height: auto;
+		padding-bottom: 10px;
+}
+
+#mainContents {
+		font-style: normal;
+		font-family: arial;
+		text-align: justify;
+}
+
+/*-------research.html PAGE-------*/
+
+/* ------Research Side Panel FOR ALL RESEARCH PAGES-----*/
+#sideResearchBar ul {
+	list-style-type: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#sideResearchBar a {
+	background-color: #005bbb;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	border-radius: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-decoration: none;
+	font-size: small;
+	font-family: Arial;
+	font-style: Regular;
+	margin-bottom: 5px;
+	border-top: black dotted;
+	border-bottom: black dotted;
+	border-width: 1px;
+}
+
+#sideResearchBar a:hover,
+#sideResearchBar a:active,
+#sideResearchBar a:focus,
+#sideResearchBar a.thispage {
+	text-decoration: none;
+	color: #666666;
+	background-color:#ffffff;
+}
+
+#sideBarArea {
+	  width: 25%;
+	  float: left;
+	  }
+
+#mainResearch {
+	  width: 74%;
+	  float: left;
+	  }
+
+#innerSideBar	{
+	  padding: 5px 5px 5px 5px;
+	  margin-right: 10px;
+	  min-height: 60px;
+	  }
+
+.clear-floated {
+		clear: both;
+		height: 1px;
+		font-size: 1px;
+		line-height: 1px;
+		padding: 0;
+		margin: 0;
+		}
+
+#researchContent {
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+#researchContent h1 {
+		text-align: center;
+		vertical-align: middle;
+		font-family: Georgia;
+		font-style: Bold;
+		font-size: 30px;
+		color: #005bbb;
+		background-color: #e1e1e1  ;
+		margin-bottom: 20px;
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+#researchContent p {
+		text-align: center;
+		color: Black;
+		font-family: Arial;
+		font-style: Regular;
+		text-align: justify;
+	}
+
+#researchContent aside {
+		text-align: left;
+		color: Black;
+		font-family: Arial;
+		font-style: italic;
+		text-align: justify;
+	}
+
+#researchImageSquare img {
+	max-width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: middle;
+	vertical-align: middle;
+}
+
+#researchImageRectangle img {
+	max-width: 750px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: middle;
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+}
+
+#multimedia2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid green;*/
+}
+
+iframe {
+	float: left;
+	display: block;
+	margin-left: 23%;
+	height: 400px;
+	border: 1px solid white;
+}
+
+/* unvisited link */
+#researchContent a:link {
+	 color: black;
+	 text-decoration: none;
+}
+/* visited link */
+#researchContent a:visited {
+	 color: black;
+	 text-decoration: none;
+}
+/* mouse over link */
+#researchContent a:hover {
+	 color: #666666;
+}
+/* selected link */
+#researchContent a:active {
+	 color: black;
+	 text-decoration: none;
+}
+
+/*-------publications.html PAGE-------*/
+
+#publicationType {
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #e1e1e1;
+	color: #005bbb;
+	font-size: xx-large;
+	font-family: Georgia;
+	font-style: bold;
+	padding-left: 20px;
+	text-align: left;
+}
+
+#publications {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/* unvisited link */
+#publications a:link {
+	 color: #990000;
+	 text-decoration: none;
+}
+/* visited link */
+#publications a:visited {
+	 color: #990000;
+	 text-decoration: none;
+}
+/* mouse over link */
+#publications a:hover {
+	 color: #ad841f;
+}
+/* selected link */
+#publications a:active {
+	 color: black;
+	 text-decoration: none;
+}
+
+
+/*----ORIENTATION OF NUMBERED LIST----*/
+
+ol {
+    counter-reset: list;
+		transform: rotate(180deg);
+		font-family: Arial;
+		text-align: justify;
+		margin-top: 14px;
+		margin-bottom: 24px;
+		margin-left: 2%;
+}
+
+ol > li {
+    list-style: none;
+    position: relative;
+		transform: rotate(-180deg);
+}
+
+ol > li:before {
+    counter-increment: list;
+    content: "["counter(list)"] ";
+	}
+
+#publications li {
+	line-height: 150%;
+}
+
+
+/*-------members.html PAGE-------*/
+
+#splitLeft2 {
+		  width: 20%;
+		  float: left;
+		  }
+
+#splitRight2 {
+		  width: 79%;
+		  float: right;
+		  }
+
+#innerLeft2 {
+			margin-left: 40px;
+		  }
+
+#innerRight2 {
+			margin-right: 40px;
+			}
+
+#personProfile {
+	/*border: 1px solid green;*/
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	clear: both;
+}
+
+#prof_pic img {
+	margin-top: 45px;
+	text-align: center;
+	vertical-align: middle;
+	max-width: 150px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#personDescription {
+	font-family: Georgia;
+	color: black;
+	text-align: justify;
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+#profileName {
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top:15px;
+}
+
+#degreeLevel {
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #e1e1e1;
+	color: #005bbb ;
+	font-size: xx-large;
+	font-family: Arial;
+	font-style: bold;
+	padding-left: 20px;
+	text-align: left;
+}
+
+#studentPicture_img img {
+	max-width: 150px;
+	/*border: 1px solid blue;*/
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border-radius: 50%;
+}
+
+#students {
+	font-family: Arial;
+	margin-left: 6%;
+	margin-top: 14px;
+	margin-bottom: 24px;
+}
+
+/* unvisited link */
+#personDescription a:link {
+	 color: black;
+	 text-decoration: none;
+}
+/* visited link */
+#personDescription a:visited {
+	 color: black;
+	 text-decoration: none;
+}
+/* mouse over link */
+#personDescription a:hover {
+	 color: #666666;
+}
+/* selected link */
+#personDescription a:active {
+	 color: black;
+	 text-decoration: none;
+}
+
+/*-------position.html PAGE-------*/
+
+#position {
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 60px;
+	/*margin-top: 30px;*/
+}
+
+#position h1 {
+		background-color: #e1e1e1;
+		color: #005bbb;
+		font-size: xx-large;
+		font-family: Georgia;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: left;
+}
+#position p {
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Arial;
+	font-style: Regular;
+}
+
+/*-------teaching.html PAGE-------*/
+#course {
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 60px;
+	margin-top: 30px;
+}
+
+#course h1 {
+		background-color: #e1e1e1;
+		color: #005bbb;
+		font-size: xx-large;
+		font-family: Georgia;
+		padding-left: 20px;
+		text-align: left;
+}
+
+#course p {
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Arial;
+	font-style: Regular;
+}
+
+/*-------media.html PAGE-------*/
+#media {
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 82px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#media li {
+	display: block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+#NewsMediaImage img {
+	max-width: 230px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+#NewsMediaImageRectangle img {
+	max-width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+/* unvisited link */
+#media a:link {
+	 color: black;
+	 text-decoration: none;
+}
+/* visited link */
+#media a:visited {
+	 color: black;
+	 text-decoration: none;
+}
+/* mouse over link */
+#media a:hover {
+	 color: #666666;
+}
+/* selected link */
+#media a:active {
+	 color: black;
+	 text-decoration: none;
+}
+
+/*---Redesigned by Rachel Su Ann Lim (rlim2@buffalo.edu)---*/
